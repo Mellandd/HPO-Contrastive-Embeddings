@@ -1,0 +1,100 @@
+{
+  "target_level": 1,
+  "min_class_size": 25,
+  "cv_folds": 5,
+  "results": {
+    "base": {
+      "num_samples": 18379,
+      "num_classes": 22,
+      "logreg": {
+        "f1_macro": 0.8028732236472771,
+        "accuracy": 0.8566842592088797,
+        "balanced_accuracy": 0.7925673063422763,
+        "best_params": {
+          "clf__C": 0.1
+        }
+      },
+      "svc": {
+        "f1_macro": 0.840417060972459,
+        "accuracy": 0.8876979160998966,
+        "balanced_accuracy": 0.8226601198051667,
+        "best_params": {
+          "clf__C": 10.0,
+          "clf__gamma": "scale"
+        }
+      },
+      "rf": {
+        "f1_macro": 0.6373283505036699,
+        "accuracy": 0.813265139561456,
+        "balanced_accuracy": 0.6006076836707043,
+        "best_params": {
+          "clf__max_depth": null,
+          "clf__max_features": "sqrt",
+          "clf__n_estimators": 500
+        }
+      }
+    },
+    "pubmed": {
+      "num_samples": 18379,
+      "num_classes": 22,
+      "logreg": {
+        "f1_macro": 0.8202905038341476,
+        "accuracy": 0.8726263670493498,
+        "balanced_accuracy": 0.8069234030445998,
+        "best_params": {
+          "clf__C": 0.1
+        }
+      },
+      "svc": {
+        "f1_macro": 0.8571054315697277,
+        "accuracy": 0.9002121987050438,
+        "balanced_accuracy": 0.8426716777938877,
+        "best_params": {
+          "clf__C": 10.0,
+          "clf__gamma": "scale"
+        }
+      },
+      "rf": {
+        "f1_macro": 0.7504353245864551,
+        "accuracy": 0.8564666195113989,
+        "balanced_accuracy": 0.7086361498628239,
+        "best_params": {
+          "clf__max_depth": 30,
+          "clf__max_features": "sqrt",
+          "clf__n_estimators": 500
+        }
+      }
+    },
+    "defs": {
+      "num_samples": 18379,
+      "num_classes": 22,
+      "logreg": {
+        "f1_macro": 0.807536170092141,
+        "accuracy": 0.8628325806627128,
+        "balanced_accuracy": 0.7985611418613483,
+        "best_params": {
+          "clf__C": 0.1
+        }
+      },
+      "svc": {
+        "f1_macro": 0.8501476583494053,
+        "accuracy": 0.8938462375537298,
+        "balanced_accuracy": 0.8365720301731997,
+        "best_params": {
+          "clf__C": 10.0,
+          "clf__gamma": "scale"
+        }
+      },
+      "rf": {
+        "f1_macro": 0.7140626778883028,
+        "accuracy": 0.8385657543936014,
+        "balanced_accuracy": 0.6751989878778457,
+        "best_params": {
+          "clf__max_depth": null,
+          "clf__max_features": "sqrt",
+          "clf__n_estimators": 500
+        }
+      }
+    }
+  }
+}

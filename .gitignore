@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env
+
+# PyTest
+.pytest_cache/
+.tmp/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data files (large)
+*.parquet
+data/
+*.log
+
+# Model checkpoints
+models/phase3/
+
+# Generated plots
+phase4/plots/
+
+# Optuna
+*.db
+
+# Environment files
+.env

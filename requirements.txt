@@ -1,0 +1,42 @@
+# Core ML
+torch>=2.0.0
+sentence-transformers>=2.2.0
+transformers>=4.30.0
+peft>=0.5.0
+
+# HPO Ontology
+pyhpo>=0.5.0
+
+# Data handling
+pandas>=1.5.0
+pyarrow>=10.0.0
+numpy>=1.23.0
+scipy>=1.10.0
+
+# Machine Learning
+scikit-learn>=1.2.0
+optuna>=3.0.0
+
+# PubMed / NCBI API
+biopython>=1.80
+
+# NLP / Tokenisation
+spacy>=3.5.0
+nltk>=3.8.0
+
+# SciSpaCy (install via pip URL)
+# https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.3/en_core_sci_sm-0.5.3.tar.gz
+
+# Visualization
+matplotlib>=3.7.0
+umap-learn>=0.5.0
+
+# Utilities
+tqdm>=4.65.0
+jsonlines>=3.1.0
+
+# Hugging Face datasets (for STS benchmarks)
+datasets>=2.12.0
+
+# YAML
+pyyaml>=6.0

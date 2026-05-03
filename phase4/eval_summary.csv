@@ -1,0 +1,196 @@
+family,variant,benchmark,classifier,metric,value
+pubmedbert,base,jax,,top1,0.0033783783783783786
+pubmedbert,base,jax,,top5,0.011824324324324325
+pubmedbert,base,jax,,top10,0.019707207207207207
+pubmedbert,base,jax,,mrr,0.010076458758003165
+pubmedbert,base,jax,,gold_similarity,0.26370716982204906
+pubmedbert,base,jax,,negative_similarity,0.5620884900191078
+pubmedbert,base,jax,,overall_mean_similarity,0.14680415215610548
+pubmedbert,base,jax,,avg_margin,-0.2983813203602761
+pubmedbert,base,jax,,num_labels,1776
+pubmedbert,base,jax,,num_candidates,19483
+pubmedbert,base,gsc,,top1,0.13053722902921772
+pubmedbert,base,gsc,,top5,0.3223374175306315
+pubmedbert,base,gsc,,mrr,0.20920287745694177
+pubmedbert,base,gsc,,gold_similarity,0.43068915605545044
+pubmedbert,base,gsc,,negative_similarity,0.6898835132163611
+pubmedbert,base,gsc,,overall_mean_similarity,0.14898167990643355
+pubmedbert,base,gsc,,avg_margin,-0.25919435680277725
+pubmedbert,base,gsc,,num_samples,2122
+pubmedbert,base,gsc,,num_candidates,19483
+pubmedbert,pubmed,jax,,top1,0.011824324324324325
+pubmedbert,pubmed,jax,,top5,0.030405405405405407
+pubmedbert,pubmed,jax,,top10,0.04391891891891892
+pubmedbert,pubmed,jax,,mrr,0.0233996093114432
+pubmedbert,pubmed,jax,,gold_similarity,0.7848938850199317
+pubmedbert,pubmed,jax,,negative_similarity,0.8834888462883395
+pubmedbert,pubmed,jax,,overall_mean_similarity,0.720810069837643
+pubmedbert,pubmed,jax,,avg_margin,-0.0985949612684078
+pubmedbert,pubmed,jax,,num_labels,1776
+pubmedbert,pubmed,jax,,num_candidates,19483
+pubmedbert,pubmed,gsc,,top1,0.2606032045240339
+pubmedbert,pubmed,gsc,,top5,0.38501413760603204
+pubmedbert,pubmed,gsc,,mrr,0.3195615491423353
+pubmedbert,pubmed,gsc,,gold_similarity,0.8077196478843689
+pubmedbert,pubmed,gsc,,negative_similarity,0.8934741051100427
+pubmedbert,pubmed,gsc,,overall_mean_similarity,0.6833778503478192
+pubmedbert,pubmed,gsc,,avg_margin,-0.0857544760171475
+pubmedbert,pubmed,gsc,,num_samples,2122
+pubmedbert,pubmed,gsc,,num_candidates,19483
+pubmedbert,base,subontology,logreg,f1_macro,0.8233620018597549
+pubmedbert,base,subontology,logreg,accuracy,0.8706676097720224
+pubmedbert,base,subontology,logreg,balanced_accuracy,0.810103823676219
+pubmedbert,base,subontology,logreg,best_params,{'clf__C': 0.1}
+pubmedbert,base,subontology,logreg,p_vs_pubmed,0.001
+pubmedbert,base,subontology,svc,f1_macro,0.8654661378427146
+pubmedbert,base,subontology,svc,accuracy,0.9029326949235541
+pubmedbert,base,subontology,svc,balanced_accuracy,0.8500697661441275
+pubmedbert,base,subontology,svc,best_params,"{'clf__C': 10.0, 'clf__gamma': 'scale'}"
+pubmedbert,base,subontology,svc,p_vs_pubmed,0.0
+pubmedbert,base,subontology,rf,f1_macro,0.7144040218333028
+pubmedbert,base,subontology,rf,accuracy,0.8414494803852223
+pubmedbert,base,subontology,rf,balanced_accuracy,0.6604143034211819
+pubmedbert,base,subontology,rf,best_params,"{'clf__max_depth': None, 'clf__max_features': 'sqrt', 'clf__n_estimators': 500}"
+pubmedbert,base,subontology,rf,p_vs_pubmed,0.0
+pubmedbert,pubmed,subontology,logreg,f1_macro,0.8075151560661862
+pubmedbert,pubmed,subontology,logreg,accuracy,0.8573915882256924
+pubmedbert,pubmed,subontology,logreg,balanced_accuracy,0.7929759600038011
+pubmedbert,pubmed,subontology,logreg,best_params,{'clf__C': 0.1}
+pubmedbert,pubmed,subontology,svc,f1_macro,0.8455144287366244
+pubmedbert,pubmed,subontology,svc,accuracy,0.8921051199738832
+pubmedbert,pubmed,subontology,svc,balanced_accuracy,0.8255559320846618
+pubmedbert,pubmed,subontology,svc,best_params,"{'clf__C': 10.0, 'clf__gamma': 'scale'}"
+pubmedbert,pubmed,subontology,rf,f1_macro,0.6849125002006669
+pubmedbert,pubmed,subontology,rf,accuracy,0.8157135861581153
+pubmedbert,pubmed,subontology,rf,balanced_accuracy,0.6308459108374044
+pubmedbert,pubmed,subontology,rf,best_params,"{'clf__max_depth': 30, 'clf__max_features': 'sqrt', 'clf__n_estimators': 500}"
+sapbert,base,jax,,top1,0.0033783783783783786
+sapbert,base,jax,,top5,0.009009009009009009
+sapbert,base,jax,,top10,0.015765765765765764
+sapbert,base,jax,,mrr,0.007665011924853196
+sapbert,base,jax,,gold_similarity,0.5131466959997475
+sapbert,base,jax,,negative_similarity,0.7192164436318316
+sapbert,base,jax,,overall_mean_similarity,0.4430106684906792
+sapbert,base,jax,,avg_margin,-0.20606974762369384
+sapbert,base,jax,,num_labels,1776
+sapbert,base,jax,,num_candidates,19483
+sapbert,base,gsc,,top1,0.13666352497643733
+sapbert,base,gsc,,top5,0.323751178133836
+sapbert,base,gsc,,mrr,0.21452378970807864
+sapbert,base,gsc,,gold_similarity,0.5411096215248108
+sapbert,base,gsc,,negative_similarity,0.72462601904932
+sapbert,base,gsc,,overall_mean_similarity,0.32959734048416994
+sapbert,base,gsc,,avg_margin,-0.18351640398495608
+sapbert,base,gsc,,num_samples,2122
+sapbert,base,gsc,,num_candidates,19483
+sapbert,pubmed,jax,,top1,0.009572072072072071
+sapbert,pubmed,jax,,top5,0.0259009009009009
+sapbert,pubmed,jax,,top10,0.03997747747747748
+sapbert,pubmed,jax,,mrr,0.02091746460072624
+sapbert,pubmed,jax,,gold_similarity,0.8174110659742141
+sapbert,pubmed,jax,,negative_similarity,0.8914504643563215
+sapbert,pubmed,jax,,overall_mean_similarity,0.7716274361574013
+sapbert,pubmed,jax,,avg_margin,-0.07403939838210742
+sapbert,pubmed,jax,,num_labels,1776
+sapbert,pubmed,jax,,num_candidates,19483
+sapbert,pubmed,gsc,,top1,0.2690857681432611
+sapbert,pubmed,gsc,,top5,0.42177191328934965
+sapbert,pubmed,gsc,,mrr,0.3400396380723856
+sapbert,pubmed,gsc,,gold_similarity,0.8459095358848572
+sapbert,pubmed,gsc,,negative_similarity,0.9066516242703664
+sapbert,pubmed,gsc,,overall_mean_similarity,0.7399847526296369
+sapbert,pubmed,gsc,,avg_margin,-0.060742110968984374
+sapbert,pubmed,gsc,,num_samples,2122
+sapbert,pubmed,gsc,,num_candidates,19483
+sapbert,base,subontology,logreg,f1_macro,0.8160931985554175
+sapbert,base,subontology,logreg,accuracy,0.8604929539147941
+sapbert,base,subontology,logreg,balanced_accuracy,0.8047578468675526
+sapbert,base,subontology,logreg,best_params,{'clf__C': 0.1}
+sapbert,base,subontology,logreg,p_vs_pubmed,0.365
+sapbert,base,subontology,svc,f1_macro,0.8560070030431899
+sapbert,base,subontology,svc,accuracy,0.9032591544697753
+sapbert,base,subontology,svc,balanced_accuracy,0.8354007309318675
+sapbert,base,subontology,svc,best_params,"{'clf__C': 10.0, 'clf__gamma': 'scale'}"
+sapbert,base,subontology,svc,p_vs_pubmed,0.364
+sapbert,base,subontology,rf,f1_macro,0.5905646493739796
+sapbert,base,subontology,rf,accuracy,0.7937863866369226
+sapbert,base,subontology,rf,balanced_accuracy,0.5500828992782814
+sapbert,base,subontology,rf,best_params,"{'clf__max_depth': 30, 'clf__max_features': 'sqrt', 'clf__n_estimators': 500}"
+sapbert,base,subontology,rf,p_vs_pubmed,1.0
+sapbert,pubmed,subontology,logreg,f1_macro,0.8142394381778939
+sapbert,pubmed,subontology,logreg,accuracy,0.8625061211164916
+sapbert,pubmed,subontology,logreg,balanced_accuracy,0.8012150384496604
+sapbert,pubmed,subontology,logreg,best_params,{'clf__C': 0.1}
+sapbert,pubmed,subontology,svc,f1_macro,0.8542511871391372
+sapbert,pubmed,subontology,svc,accuracy,0.8985799009739377
+sapbert,pubmed,subontology,svc,balanced_accuracy,0.8340924259891342
+sapbert,pubmed,subontology,svc,best_params,"{'clf__C': 10.0, 'clf__gamma': 'scale'}"
+sapbert,pubmed,subontology,rf,f1_macro,0.6710458533714656
+sapbert,pubmed,subontology,rf,accuracy,0.8174547037379618
+sapbert,pubmed,subontology,rf,balanced_accuracy,0.6167448906197416
+sapbert,pubmed,subontology,rf,best_params,"{'clf__max_depth': None, 'clf__max_features': 'sqrt', 'clf__n_estimators': 500}"
+minilm,base,jax,,top1,0.0045045045045045045
+minilm,base,jax,,top5,0.010135135135135136
+minilm,base,jax,,top10,0.019707207207207207
+minilm,base,jax,,mrr,0.010132798172294516
+minilm,base,jax,,gold_similarity,0.28415538716866207
+minilm,base,jax,,negative_similarity,0.5767099797759239
+minilm,base,jax,,overall_mean_similarity,0.20378568876563138
+minilm,base,jax,,avg_margin,-0.2925545926214204
+minilm,base,jax,,num_labels,1776
+minilm,base,jax,,num_candidates,19483
+minilm,base,gsc,,top1,0.1418473138548539
+minilm,base,gsc,,top5,0.28510838831291235
+minilm,base,gsc,,mrr,0.20498091032214893
+minilm,base,gsc,,gold_similarity,0.45234909653663635
+minilm,base,gsc,,negative_similarity,0.6695368954109538
+minilm,base,gsc,,overall_mean_similarity,0.19056675961292915
+minilm,base,gsc,,avg_margin,-0.21718779353742662
+minilm,base,gsc,,num_samples,2122
+minilm,base,gsc,,num_candidates,19483
+minilm,pubmed,jax,,top1,0.0033783783783783786
+minilm,pubmed,jax,,top5,0.009572072072072071
+minilm,pubmed,jax,,top10,0.013513513513513514
+minilm,pubmed,jax,,mrr,0.007685350299555113
+minilm,pubmed,jax,,gold_similarity,0.1033615148159435
+minilm,pubmed,jax,,negative_similarity,0.3889724123081914
+minilm,pubmed,jax,,overall_mean_similarity,0.06849305223645145
+minilm,pubmed,jax,,avg_margin,-0.2856108977937618
+minilm,pubmed,jax,,num_labels,1776
+minilm,pubmed,jax,,num_candidates,19483
+minilm,pubmed,gsc,,top1,0.08671065032987747
+minilm,pubmed,gsc,,top5,0.19839773798303487
+minilm,pubmed,gsc,,mrr,0.14548522703174696
+minilm,pubmed,gsc,,gold_similarity,0.27527257800102234
+minilm,pubmed,gsc,,negative_similarity,0.522915624847511
+minilm,pubmed,gsc,,overall_mean_similarity,0.059281352277105945
+minilm,pubmed,gsc,,avg_margin,-0.24764302307625743
+minilm,pubmed,gsc,,num_samples,2122
+minilm,pubmed,gsc,,num_candidates,19483
+minilm,base,subontology,logreg,f1_macro,0.7737086981040927
+minilm,base,subontology,logreg,accuracy,0.8226780564775015
+minilm,base,subontology,logreg,balanced_accuracy,0.764420550827769
+minilm,base,subontology,logreg,best_params,{'clf__C': 0.1}
+minilm,base,subontology,logreg,p_vs_pubmed,0.0
+minilm,base,subontology,svc,f1_macro,0.8454410273686395
+minilm,base,subontology,svc,accuracy,0.8888949344360412
+minilm,base,subontology,svc,balanced_accuracy,0.8274760284712307
+minilm,base,subontology,svc,best_params,"{'clf__C': 10.0, 'clf__gamma': 'scale'}"
+minilm,base,subontology,svc,p_vs_pubmed,0.0
+minilm,base,subontology,rf,f1_macro,0.6437318577457855
+minilm,base,subontology,rf,accuracy,0.7935687469394418
+minilm,base,subontology,rf,balanced_accuracy,0.5887389380262202
+minilm,base,subontology,rf,best_params,"{'clf__max_depth': None, 'clf__max_features': 'sqrt', 'clf__n_estimators': 500}"
+minilm,base,subontology,rf,p_vs_pubmed,0.0
+minilm,pubmed,subontology,logreg,f1_macro,0.7467799189875352
+minilm,pubmed,subontology,logreg,accuracy,0.7972686217966157
+minilm,pubmed,subontology,logreg,balanced_accuracy,0.7317671764690696
+minilm,pubmed,subontology,logreg,best_params,{'clf__C': 0.1}
+minilm,pubmed,subontology,svc,f1_macro,0.8161977625584794
+minilm,pubmed,subontology,svc,accuracy,0.8718646281081669
+minilm,pubmed,subontology,svc,balanced_accuracy,0.7904672117092454
+minilm,pubmed,subontology,svc,best_params,"{'clf__C': 10.0, 'clf__gamma': 'scale'}"
+minilm,pubmed,subontology,rf,f1_macro,0.4747893390372944
+minilm,pubmed,subontology,rf,accuracy,0.6572718863920779
+minilm,pubmed,subontology,rf,balanced_accuracy,0.4150884433268828
+minilm,pubmed,subontology,rf,best_params,"{'clf__max_depth': None, 'clf__max_features': 'sqrt', 'clf__n_estimators': 500}"

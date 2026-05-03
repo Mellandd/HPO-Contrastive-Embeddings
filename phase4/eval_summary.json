@@ -1,0 +1,347 @@
+{
+  "pubmedbert": {
+    "base": {
+      "jax": {
+        "top1": 0.0033783783783783786,
+        "top5": 0.011824324324324325,
+        "top10": 0.019707207207207207,
+        "mrr": 0.010076458758003165,
+        "gold_similarity": 0.26370716982204906,
+        "negative_similarity": 0.5620884900191078,
+        "overall_mean_similarity": 0.14680415215610548,
+        "avg_margin": -0.2983813203602761,
+        "num_labels": 1776,
+        "num_candidates": 19483
+      },
+      "gsc": {
+        "top1": 0.13053722902921772,
+        "top5": 0.3223374175306315,
+        "mrr": 0.20920287745694177,
+        "gold_similarity": 0.43068915605545044,
+        "negative_similarity": 0.6898835132163611,
+        "overall_mean_similarity": 0.14898167990643355,
+        "avg_margin": -0.25919435680277725,
+        "num_samples": 2122,
+        "num_candidates": 19483
+      }
+    },
+    "pubmed": {
+      "jax": {
+        "top1": 0.011824324324324325,
+        "top5": 0.030405405405405407,
+        "top10": 0.04391891891891892,
+        "mrr": 0.0233996093114432,
+        "gold_similarity": 0.7848938850199317,
+        "negative_similarity": 0.8834888462883395,
+        "overall_mean_similarity": 0.720810069837643,
+        "avg_margin": -0.0985949612684078,
+        "num_labels": 1776,
+        "num_candidates": 19483
+      },
+      "gsc": {
+        "top1": 0.2606032045240339,
+        "top5": 0.38501413760603204,
+        "mrr": 0.3195615491423353,
+        "gold_similarity": 0.8077196478843689,
+        "negative_similarity": 0.8934741051100427,
+        "overall_mean_similarity": 0.6833778503478192,
+        "avg_margin": -0.0857544760171475,
+        "num_samples": 2122,
+        "num_candidates": 19483
+      }
+    },
+    "subontology": {
+      "base": {
+        "logreg": {
+          "f1_macro": 0.8233620018597549,
+          "accuracy": 0.8706676097720224,
+          "balanced_accuracy": 0.810103823676219,
+          "best_params": {
+            "clf__C": 0.1
+          },
+          "p_vs_pubmed": 0.001
+        },
+        "svc": {
+          "f1_macro": 0.8654661378427146,
+          "accuracy": 0.9029326949235541,
+          "balanced_accuracy": 0.8500697661441275,
+          "best_params": {
+            "clf__C": 10.0,
+            "clf__gamma": "scale"
+          },
+          "p_vs_pubmed": 0.0
+        },
+        "rf": {
+          "f1_macro": 0.7144040218333028,
+          "accuracy": 0.8414494803852223,
+          "balanced_accuracy": 0.6604143034211819,
+          "best_params": {
+            "clf__max_depth": null,
+            "clf__max_features": "sqrt",
+            "clf__n_estimators": 500
+          },
+          "p_vs_pubmed": 0.0
+        }
+      },
+      "pubmed": {
+        "logreg": {
+          "f1_macro": 0.8075151560661862,
+          "accuracy": 0.8573915882256924,
+          "balanced_accuracy": 0.7929759600038011,
+          "best_params": {
+            "clf__C": 0.1
+          }
+        },
+        "svc": {
+          "f1_macro": 0.8455144287366244,
+          "accuracy": 0.8921051199738832,
+          "balanced_accuracy": 0.8255559320846618,
+          "best_params": {
+            "clf__C": 10.0,
+            "clf__gamma": "scale"
+          }
+        },
+        "rf": {
+          "f1_macro": 0.6849125002006669,
+          "accuracy": 0.8157135861581153,
+          "balanced_accuracy": 0.6308459108374044,
+          "best_params": {
+            "clf__max_depth": 30,
+            "clf__max_features": "sqrt",
+            "clf__n_estimators": 500
+          }
+        }
+      }
+    }
+  },
+  "sapbert": {
+    "base": {
+      "jax": {
+        "top1": 0.0033783783783783786,
+        "top5": 0.009009009009009009,
+        "top10": 0.015765765765765764,
+        "mrr": 0.007665011924853196,
+        "gold_similarity": 0.5131466959997475,
+        "negative_similarity": 0.7192164436318316,
+        "overall_mean_similarity": 0.4430106684906792,
+        "avg_margin": -0.20606974762369384,
+        "num_labels": 1776,
+        "num_candidates": 19483
+      },
+      "gsc": {
+        "top1": 0.13666352497643733,
+        "top5": 0.323751178133836,
+        "mrr": 0.21452378970807864,
+        "gold_similarity": 0.5411096215248108,
+        "negative_similarity": 0.72462601904932,
+        "overall_mean_similarity": 0.32959734048416994,
+        "avg_margin": -0.18351640398495608,
+        "num_samples": 2122,
+        "num_candidates": 19483
+      }
+    },
+    "pubmed": {
+      "jax": {
+        "top1": 0.009572072072072071,
+        "top5": 0.0259009009009009,
+        "top10": 0.03997747747747748,
+        "mrr": 0.02091746460072624,
+        "gold_similarity": 0.8174110659742141,
+        "negative_similarity": 0.8914504643563215,
+        "overall_mean_similarity": 0.7716274361574013,
+        "avg_margin": -0.07403939838210742,
+        "num_labels": 1776,
+        "num_candidates": 19483
+      },
+      "gsc": {
+        "top1": 0.2690857681432611,
+        "top5": 0.42177191328934965,
+        "mrr": 0.3400396380723856,
+        "gold_similarity": 0.8459095358848572,
+        "negative_similarity": 0.9066516242703664,
+        "overall_mean_similarity": 0.7399847526296369,
+        "avg_margin": -0.060742110968984374,
+        "num_samples": 2122,
+        "num_candidates": 19483
+      }
+    },
+    "subontology": {
+      "base": {
+        "logreg": {
+          "f1_macro": 0.8160931985554175,
+          "accuracy": 0.8604929539147941,
+          "balanced_accuracy": 0.8047578468675526,
+          "best_params": {
+            "clf__C": 0.1
+          },
+          "p_vs_pubmed": 0.365
+        },
+        "svc": {
+          "f1_macro": 0.8560070030431899,
+          "accuracy": 0.9032591544697753,
+          "balanced_accuracy": 0.8354007309318675,
+          "best_params": {
+            "clf__C": 10.0,
+            "clf__gamma": "scale"
+          },
+          "p_vs_pubmed": 0.364
+        },
+        "rf": {
+          "f1_macro": 0.5905646493739796,
+          "accuracy": 0.7937863866369226,
+          "balanced_accuracy": 0.5500828992782814,
+          "best_params": {
+            "clf__max_depth": 30,
+            "clf__max_features": "sqrt",
+            "clf__n_estimators": 500
+          },
+          "p_vs_pubmed": 1.0
+        }
+      },
+      "pubmed": {
+        "logreg": {
+          "f1_macro": 0.8142394381778939,
+          "accuracy": 0.8625061211164916,
+          "balanced_accuracy": 0.8012150384496604,
+          "best_params": {
+            "clf__C": 0.1
+          }
+        },
+        "svc": {
+          "f1_macro": 0.8542511871391372,
+          "accuracy": 0.8985799009739377,
+          "balanced_accuracy": 0.8340924259891342,
+          "best_params": {
+            "clf__C": 10.0,
+            "clf__gamma": "scale"
+          }
+        },
+        "rf": {
+          "f1_macro": 0.6710458533714656,
+          "accuracy": 0.8174547037379618,
+          "balanced_accuracy": 0.6167448906197416,
+          "best_params": {
+            "clf__max_depth": null,
+            "clf__max_features": "sqrt",
+            "clf__n_estimators": 500
+          }
+        }
+      }
+    }
+  },
+  "minilm": {
+    "base": {
+      "jax": {
+        "top1": 0.0045045045045045045,
+        "top5": 0.010135135135135136,
+        "top10": 0.019707207207207207,
+        "mrr": 0.010132798172294516,
+        "gold_similarity": 0.28415538716866207,
+        "negative_similarity": 0.5767099797759239,
+        "overall_mean_similarity": 0.20378568876563138,
+        "avg_margin": -0.2925545926214204,
+        "num_labels": 1776,
+        "num_candidates": 19483
+      },
+      "gsc": {
+        "top1": 0.1418473138548539,
+        "top5": 0.28510838831291235,
+        "mrr": 0.20498091032214893,
+        "gold_similarity": 0.45234909653663635,
+        "negative_similarity": 0.6695368954109538,
+        "overall_mean_similarity": 0.19056675961292915,
+        "avg_margin": -0.21718779353742662,
+        "num_samples": 2122,
+        "num_candidates": 19483
+      }
+    },
+    "pubmed": {
+      "jax": {
+        "top1": 0.0033783783783783786,
+        "top5": 0.009572072072072071,
+        "top10": 0.013513513513513514,
+        "mrr": 0.007685350299555113,
+        "gold_similarity": 0.1033615148159435,
+        "negative_similarity": 0.3889724123081914,
+        "overall_mean_similarity": 0.06849305223645145,
+        "avg_margin": -0.2856108977937618,
+        "num_labels": 1776,
+        "num_candidates": 19483
+      },
+      "gsc": {
+        "top1": 0.08671065032987747,
+        "top5": 0.19839773798303487,
+        "mrr": 0.14548522703174696,
+        "gold_similarity": 0.27527257800102234,
+        "negative_similarity": 0.522915624847511,
+        "overall_mean_similarity": 0.059281352277105945,
+        "avg_margin": -0.24764302307625743,
+        "num_samples": 2122,
+        "num_candidates": 19483
+      }
+    },
+    "subontology": {
+      "base": {
+        "logreg": {
+          "f1_macro": 0.7737086981040927,
+          "accuracy": 0.8226780564775015,
+          "balanced_accuracy": 0.764420550827769,
+          "best_params": {
+            "clf__C": 0.1
+          },
+          "p_vs_pubmed": 0.0
+        },
+        "svc": {
+          "f1_macro": 0.8454410273686395,
+          "accuracy": 0.8888949344360412,
+          "balanced_accuracy": 0.8274760284712307,
+          "best_params": {
+            "clf__C": 10.0,
+            "clf__gamma": "scale"
+          },
+          "p_vs_pubmed": 0.0
+        },
+        "rf": {
+          "f1_macro": 0.6437318577457855,
+          "accuracy": 0.7935687469394418,
+          "balanced_accuracy": 0.5887389380262202,
+          "best_params": {
+            "clf__max_depth": null,
+            "clf__max_features": "sqrt",
+            "clf__n_estimators": 500
+          },
+          "p_vs_pubmed": 0.0
+        }
+      },
+      "pubmed": {
+        "logreg": {
+          "f1_macro": 0.7467799189875352,
+          "accuracy": 0.7972686217966157,
+          "balanced_accuracy": 0.7317671764690696,
+          "best_params": {
+            "clf__C": 0.1
+          }
+        },
+        "svc": {
+          "f1_macro": 0.8161977625584794,
+          "accuracy": 0.8718646281081669,
+          "balanced_accuracy": 0.7904672117092454,
+          "best_params": {
+            "clf__C": 10.0,
+            "clf__gamma": "scale"
+          }
+        },
+        "rf": {
+          "f1_macro": 0.4747893390372944,
+          "accuracy": 0.6572718863920779,
+          "balanced_accuracy": 0.4150884433268828,
+          "best_params": {
+            "clf__max_depth": null,
+            "clf__max_features": "sqrt",
+            "clf__n_estimators": 500
+          }
+        }
+      }
+    }
+  }
+}
