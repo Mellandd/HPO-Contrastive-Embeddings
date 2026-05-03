@@ -77,14 +77,14 @@ Mine PubMed for sentences mentioning HPO terms, applying quality filters describ
 
 ```bash
 # Full pipeline: search PMC, download XML, extract sentences, consolidate to Parquet
-python hpo_textminer.py --synonyms --max-ids-per-term 1000
+python phase1/hpo_textminer.py --synonyms --max-ids-per-term 1000
 
 # Or just consolidate existing JSONL to Parquet
-python hpo_textminer.py --only-consolidate
+python phase1/hpo_textminer.py --only-consolidate
 ```
 
 **Scripts:**
-- `hpo_textminer.py` — main entry point
+- `phase1/hpo_textminer.py` — main entry point
 - `utils/pubmed_fetcher.py` — NCBI Entrez search and batch XML download
 - `utils/text_extractor.py` — JATS XML parsing, sentence extraction, negation/context filtering
 - `utils/hpo_loader.py` — HPO term loading via PyHPO
@@ -352,7 +352,8 @@ python phase4/embed_visualization_definitions_full.py \
 
 ```
 .
-├── hpo_textminer.py                         # Phase 1: PubMed corpus generation
+├── phase1/
+│   └── hpo_textminer.py                     # Phase 1: PubMed corpus generation
 ├── requirements.txt                         # Python dependencies
 ├── .gitignore                               # Excluded files (data, models, caches)
 ├── README.md

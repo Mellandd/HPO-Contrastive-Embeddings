@@ -10,8 +10,8 @@
 - Consolidates to Parquet (single file or partitioned dataset)
 
 Usage:
-    python hpo_textminer.py --limit-terms 500 --synonyms --max-ids-per-term 1000
-    python hpo_textminer.py --only-consolidate
+    python phase1/hpo_textminer.py --limit-terms 500 --synonyms --max-ids-per-term 1000
+    python phase1/hpo_textminer.py --only-consolidate
 """
 from __future__ import annotations
 import argparse
@@ -21,6 +21,13 @@ import re
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from urllib.parse import unquote
 from tqdm import tqdm
+
+import pathlib
+import sys
+
+ROOT_DIR = pathlib.Path(__file__).resolve().parents[1]
+if str(ROOT_DIR) not in sys.path:
+    sys.path.insert(0, str(ROOT_DIR))
 
 from utils import config, pubmed_fetcher, text_extractor, hpo_loader, saver
 
