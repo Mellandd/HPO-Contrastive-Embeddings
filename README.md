@@ -424,21 +424,10 @@ Evaluation result files (JSON/CSV) in `phase4/` are tracked in the repository fo
 
 ## Citation
 
-If you use this work, please cite:
-
-```bibtex
-@inproceedings{mellina2026structure,
-  title     = {Structure-Aware Contrastive Learning for Biomedical Embeddings:
-               Bridging the Gap between HPO and Clinical Literature},
-  author    = {Mellina, Jose Luis and others},
-  booktitle = {Proceedings of the IJCAI-ECAI 2026 — AI and Health Track},
-  year      = {2026},
-  note      = {Forthcoming}
-}
-```
+*[To be determined - Will appear here after the IJCAI-ECAI 2026 proceedings]
 
 ---
 
 ## License
 
-*[License — to be determined]*
+This project is licensed under the terms of the MIT license.
