@@ -424,7 +424,7 @@ Evaluation result files (JSON/CSV) in `phase4/` are tracked in the repository fo
 
 ## Citation
 
-*[To be determined - Will appear here after the IJCAI-ECAI 2026 proceedings]
+To be determined - Will appear here after the IJCAI-ECAI 2026 proceedings.
 
 ---
 
