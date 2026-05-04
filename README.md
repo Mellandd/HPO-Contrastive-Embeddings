@@ -8,6 +8,10 @@
 
 Large Language Models (LLMs) are extensively used in biomedical text processing but often fail to capture the complex functional relationships encoded in expert knowledge graphs like the Human Phenotype Ontology (HPO). This "semantic gap" limits their utility in precision medicine tasks such as rare disease diagnosis. We propose a **Neuro-Symbolic Alignment Framework** that bridges this separation by integrating literature-mined phenotype descriptions with ontological structure. Our approach: (1) augments phenotype representations with text fragments mined from PubMed, overcoming data scarcity; (2) defines a novel "Disease-Overlap" similarity measure based on shared disease annotations rather than graph distance; (3) optimizes the embedding space using AnglE Loss with anchor-based hard sampling. Evaluations show our fine-tuned PubMedBERT achieves a **4× improvement** in Top-1 accuracy over baselines on real-world Phenopacket patient retrieval, and doubles GSC+ retrieval performance.
 
+## Generated model
+
+The generated model is available in Hugging Face: https://huggingface.co/Melland/hpo_pubmedbert-rbp-angle
+
 ---
 
 ## Pipeline Overview
