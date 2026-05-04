@@ -10,6 +10,14 @@ Large Language Models (LLMs) are extensively used in biomedical text processing 
 
 ---
 
+## Pipeline Overview
+
+![Pipeline Overview](docs/fig1.png)
+
+The framework consists of four stages: **Literature-Based Corpus Generation**, where HPO terms are enriched with diverse linguistic contexts mined from PubMed using dynamic windowing and negation filtering; **Neuro-Symbolic Pairing**, where Anchor-Based Sampling creates training pairs supervised by our Disease-Overlap Similarity metric; **Model Fine-Tuning**, where a bi-encoder is optimized using AnglE Loss with partial freezing; and **Applications & Evaluation** across multiple downstream tasks.
+
+---
+
 ## Installation
 
 ```bash
@@ -61,13 +69,6 @@ All Python dependencies are listed in [`requirements.txt`](requirements.txt). Ke
 | Visualisation          | `matplotlib`, `umap-learn`                                     |
 | Utilities              | `tqdm`, `jsonlines`, `datasets`, `pyyaml`                      |
 
----
-
-## Pipeline Overview
-
-![Pipeline Overview](docs/fig1.png)
-
-The framework consists of four stages: **Literature-Based Corpus Generation**, where HPO terms are enriched with diverse linguistic contexts mined from PubMed using dynamic windowing and negation filtering; **Neuro-Symbolic Pairing**, where Anchor-Based Sampling creates training pairs supervised by our Disease-Overlap Similarity metric; **Model Fine-Tuning**, where a bi-encoder is optimized using AnglE Loss with partial freezing; and **Applications & Evaluation** across multiple downstream tasks.
 
 ---
 
